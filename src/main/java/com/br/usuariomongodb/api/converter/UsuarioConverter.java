@@ -13,7 +13,7 @@ import java.util.UUID;
 @Component
 @RequiredArgsConstructor
 public class UsuarioConverter {
-
+//tteste
     public UsuarioEntity paraUsuarioEntity(UsuarioRequestDTO usuarioDTO) {
         return UsuarioEntity.builder()
                 .id(UUID.randomUUID().toString())
